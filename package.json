@@ -1,0 +1,19 @@
+{
+  "name": "dynamic_website",
+  "version": "1.0.0",
+  "description": "This is a project for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Udit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "hbs": "^4.2.0",
+    "hbs-utils": "^0.0.4",
+    "mongoose": "^8.8.3"
+  }
+}
